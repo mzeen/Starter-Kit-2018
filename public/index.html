@@ -6,10 +6,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/main.css">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js"
+            integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous">
+
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js"
+            integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous">
+
+    </script>
   </head>
   <body>
-    <div id="app"></div>
+  <!--  <div id="app"></div>
     <script src="/js/components/vendor.js"></script>
-    <script src="/js/components/firstComp.js"></script>
+    <script src="/js/components/firstComp.js"></script>-->
+  <section id="sideMenu">
+  <nav>
+    <a href="#" class="active" ><i class="fa fa-home"></i>
+      Home</a>
+    <a href="#"><i class="fa fa-sticky-note"></i>
+       Note</a>
+    <a href="#"><i class="fa fa-bookmark"></i>
+      Bookmarks</a>
+    <a href="#"><i class="fa fa-calendar"></i>
+      Calender</a>
+    <a href="#"><i class="fa fa-user-circle"></i>
+      Profile</a>
+    <a href="#"><i class="fa fa-cog"></i>
+      Settings</a>
+  </nav>
+  </section>
+
+  <header>
+    <div class="search-area">
+      <i class="fas fa-search"></i>
+      <input type="text" name="" value="">
+    </div>
+
+    <div class="user-area">
+      <a href="#" class="add">+ Add</a>
+      <a href="#" class="notification">
+        <i class="fas fa-bell"></i>
+        <span class="circle">3</span>
+      </a>
+      <a href="#">
+        <div class="user-img"></div>
+        <i class="fas fa-caret-down"></i>
+      </a>
+    </div>
+  </header>
+  <section id="content-area">
+      <div class="col-md-12">
+          <div class="row">
+            <div class="heading">
+              <h1>Dashboard</h1>
+              <p>Welcome to Gojobs</p>
+            </div>
+          </div>
+      </div>
+
+    <div class="cards">
+        <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-4">
+            <div class="card">
+                <div class="user-img"></div>
+                <span class="user-name">
+                    Maria
+                </span>
+                <span class="user-title">
+                  Full-Stack Developer
+                </span>
+                <hr>
+                <div class="col-md-3">
+                    <span class="education">Education</span>
+                </div>
+                <div class="col-md-9">
+                    <span class="schools">TU Kaiserslautern</span>
+                    <span class="schools">TU Kaiserslautern University</span>
+                </div>
+            </div>
+        </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-4">
+        <div class="card">
+            <h6>Interview Schedule</h6>
+            <span class="date">21, July, 2016</span>
+            <div class="col-md-2">
+                <span class="job-type">IT</span>
+            </div>
+            <div class="col-md-10">
+                <span class="location">Best Buy HQ</span>
+                <span class="position">Senior Developer</span>
+                <span class="time">10:50 am</span>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+      <div class="col-md-12">
+          <div class="row">
+            <table>
+              <thead>
+               <tr>
+                 <th>COMPANY</th>
+                 <th>JOBS</th>
+                 <th>END OF APPLICATION</th>
+                 <th>LOCATION</th>
+                 <th></th>
+               </tr>
+              </thead>
+              <tbody>
+                <tr>
+                   <td><span class="logo">KL</span>Online Shopping e-commerce</td>
+                   <td>Java Developer</td>
+                   <td>27 Jun 2018</td>
+                   <td>Mannheim</td>
+                   <td>...</td>
+                </tr><tr>
+                   <td><span class="logo">IJ</span>Online Shopping e-commerce</td>
+                   <td>Java Developer</td>
+                   <td>27 Jun 2018</td>
+                   <td>Mannheim</td>
+                   <td>...</td>
+                </tr><tr>
+                   <td><span class="logo">GH</span>Online Shopping e-commerce</td>
+                   <td>Java Developer</td>
+                   <td>27 Jun 2018</td>
+                   <td>Mannheim</td>
+                   <td>...</td>
+                </tr><tr>
+                   <td><span class="logo">EF</span>Online Shopping e-commerce</td>
+                   <td>Java Developer</td>
+                   <td>27 Jun 2018</td>
+                   <td>Mannheim</td>
+                   <td>...</td>
+                </tr><tr>
+                   <td><span class="logo">CD</span>Online Shopping e-commerce</td>
+                   <td>Java Developer</td>
+                   <td>27 Jun 2018</td>
+                   <td>Mannheim</td>
+                   <td>...</td>
+                </tr><tr>
+                   <td><span class="logo">AB</span>Online Shopping e-commerce</td>
+                   <td>Java Developer</td>
+                   <td>27 Jun 2018</td>
+                   <td>Mannheim</td>
+                   <td>...</td>
+                </tr>
+              </tbody>
+                </table>
+          </div>
+      </div>
+  </section>
   </body>
 </html>
